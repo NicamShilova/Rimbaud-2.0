@@ -1,0 +1,19 @@
+<!-- Affichage des informations sur l'article : -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gestion des articles</title>
+    </head>
+    <body>
+        <h2>Information sur l'article :</h2>
+
+        {% for stud in dataObject %}
+            Titre   :  {{ stud.titre }}<br />
+            Description  :  {{ stud.description }}<br />
+            Article:  {{ stud.article }}<br />
+            Date d'ajout :  {{ stud.date }}<br />
+        {% endfor %}
+        
+    </body>
+</html>

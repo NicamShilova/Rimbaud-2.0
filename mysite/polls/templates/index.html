@@ -1,0 +1,19 @@
+<!-- Affichage de la page d'accueil -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gestion des articles</title>
+    </head>
+    <body>
+        <h2>Gestion des articles</h2>
+        <!-- Chaque article ainsi que son lien affichat sa est affiché sur chaque ligne -->
+        {% for stud in dataObject %}
+            {{ stud.id }}
+            {# Id   :  {{ stud.id }}<br /> #}
+                Titre   :  {{ stud.titre }} : <a href=http://127.0.0.1:8000/polls/information?id={{ stud.id }}>Information</a> <br />
+            ------------------------------<br />
+
+        {% endfor %}
+    </body>
+</html>
