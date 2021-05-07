@@ -8,9 +8,11 @@
 
 ## Pré-requis
 
-```Python
+```
+Python
 Anaconda
-django```
+django
+```
 
 
 ## Installation
@@ -21,7 +23,9 @@ Installer vscode
 
 Dans Anaconda, créer un environnement, puis installer dedans django :
 
-```python -m pip install Django```
+```
+python -m pip install Django
+```
 
 
 ## Exécution
@@ -30,12 +34,16 @@ Dans vscode, charger d'abord l'environnement puis lancer vscode
 
 Ouvrir un shell, puis aller dans le dossier mysite :
 
-```cd mysite```
+```
+cd mysite
+```
 
 Initialiser la base de données :
 
-```python manage.py makemigrations mysite
-python manage.py migrate```
+```
+python manage.py makemigrations mysite
+python manage.py migrate
+```
 
 Ajouter des données la base:
 
@@ -44,16 +52,21 @@ Ajouter des données la base:
 - Créer le polls Articles, puis le sélectionner
 - Cliquer sur Add Article
 - Remplir le formulaire, et valider
-- Répéter autant de fois que nécessaire```
+- Répéter autant de fois que nécessaire
+```
 
 Note : la case admin permet d'afficher l'article dans le navigateur
 
 
 Lancer le serveur :
 
-```python manage.py runserver```
+```
+python manage.py runserver
+```
 
 
 Lancer le site internet : 
 
-```http://127.0.0.1:8000/polls/```
+```
+http://127.0.0.1:8000/polls/
+```
